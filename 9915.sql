@@ -10,17 +10,17 @@ Output their first name, total cost of their items, and the date.
 Tables Schema:
 
 <customers>
-id					int
-first_name			varchar
-last_name			varchar
-city				varchar
-address				varchar
+id			int
+first_name		varchar
+last_name		varchar
+city			varchar
+address			varchar
 phone_number		varchar
 
 <orders>
-id					int
-cust_id				int
-order_date			datetime
+id			int
+cust_id			int
+order_date		datetime
 order_details		varchar
 total_order_cost	int
 
